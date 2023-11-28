@@ -1,16 +1,26 @@
-import { useState } from 'react'
-import './App.css'
+// App.jsx
+import React from 'react';
+import Navbar from './components/Navbar';
+import IntroSection from './components/IntroSection';
+import EventsSection from './components/EventsSection';
+import VenuesSection from './components/HousesSection';
+import InstagramSection from './components/InstagramSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+import './css/App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div className="App">
-        <h1>Hello</h1>
-      </div>
+      <Navbar />
+      <IntroSection />
+      <EventsSection />
+      <VenuesSection />
+      <InstagramSection />
+      <ContactSection />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
