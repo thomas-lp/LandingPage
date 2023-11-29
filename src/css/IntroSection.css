@@ -1,0 +1,50 @@
+/* css/IntroSection.css */
+:root {
+  --orange: #f98404;
+  --dark: #222;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  margin: 150px;
+}
+
+.intro-left {
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.intro-left h1 {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.intro-left p {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 50px;
+}
+
+.intro-left span {
+  color:#f98404
+}
+
+.intro-right {
+  flex-shrink: 0;
+}
+
+.intro-left::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 100%;
+  background-color: var(--orange);
+  position: absolute;
+  top: 0;
+  left: -8px;
+}
