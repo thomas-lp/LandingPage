@@ -1,16 +1,36 @@
 // components/Navbar.jsx
-import React from 'react';
+import React, { useState } from 'react';
+import Button from './NavbarButton';
+import '../css/Navbar.css';
+import '../css/NavbarButton.css';
 
 const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <nav>
-      <ul>
-        <li><a href="#intro">Início</a></li>
-        <li><a href="#events">Eventos</a></li>
-        <li><a href="#venues">Casas</a></li>
-        <li><a href="#instagram">Instagram</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
+    <nav className={darkMode ? 'dark-mode' : ''}>
+      <div className="left-side">
+        <div className="logo">Por Toda PArte</div>
+      </div>
+      <div className="right-side">
+        <Button onClick={() => scrollToSection('intro')}>Inicio</Button>
+        <Button onClick={() => scrollToSection('events')}>Eventos</Button>
+        <Button onClick={() => scrollToSection('houses')}>Houses</Button>
+        <Button onClick={() => scrollToSection('instagram')}>Instagram</Button>
+        <Button onClick={() => scrollToSection('contact')}>Contact</Button>
+        <Button onClick={toggleDarkMode}>{darkMode ? '🌞' : '🌙'}</Button>
+      </div>
     </nav>
   );
 };
