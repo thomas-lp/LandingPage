@@ -1,0 +1,43 @@
+/* css/InstagramSection.css */
+:root {
+    --orange: #f98404;
+    --dark: #222;
+  }
+  
+  .instagram-section {
+    background-color: var(--orange);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .instagram-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .instagram-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .instagram-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .instagram-info {
+    font-size: 1.2rem;
+  }
+  
+  .instagram-handle {
+    color: #ffffff;
+  }
+  
+  .instagram-embed-container {
+    border-radius: 10px; /* Adapte conforme necessário */
+    overflow: hidden;   /* Para garantir que as bordas arredondadas funcionem */
+  }
+    
