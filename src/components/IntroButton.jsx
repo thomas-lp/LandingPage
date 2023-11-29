@@ -1,6 +1,8 @@
 // components/IntroButton.jsx
 import React from 'react';
 import '../css/IntroButton.css';
+import { FaWhatsapp } from "react-icons/fa";
+
 
 const IntroButton = ({ onClick }) => {
   return (
@@ -8,9 +10,9 @@ const IntroButton = ({ onClick }) => {
       <div className="intro-button" onClick={onClick}>
         <div className="button-text">Junte-se a nós</div>
       </div>
-      <div className="button-img-container">
-        <p>A<i class="fa-brands fa-whatsapp"></i></p>
-      </div>
+        <div>
+            <p className='button-wpp' style={{ fontSize: '50px' }}><FaWhatsapp/></p>      
+        </div>
     </div>
   );
 };
