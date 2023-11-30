@@ -1,6 +1,6 @@
 /* css/HouseInfoSection.css */
 .house-info-section {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding: 20px;

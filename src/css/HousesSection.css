@@ -3,4 +3,19 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .house-container {
+    display: flex;
+    flex-direction: row; /* Por padrão, os elementos estarão em linha (lado a lado) */
+    justify-content: space-around; /* Isso distribuirá o espaço disponível entre os elementos */
+    align-items: center; /* Isso alinhará os elementos verticalmente ao centro */
+  }
+  
+  .carousel {
+    width: 30%; /* Ajuste a largura do Carousel conforme necessário */
+  }
+  
+  .info-section {
+    width: 70%; /* Ajuste a largura da HouseInfoSection conforme necessário */
+  }
   
