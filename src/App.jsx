@@ -8,6 +8,8 @@ import InstagramSection from './components/InstagramSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import './css/App.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (
