@@ -13,7 +13,7 @@ const EventsSection = () => {
   };
 
   return (
-    <div style={{ width: '65%', margin: 'auto' }}>
+    <div section id="events" style={{ width: '65%', margin: 'auto' }}>
       <div style={{ marginTop: '20px' }}>
         <Slider {...settings}>
           {eventsData.map((d) => (

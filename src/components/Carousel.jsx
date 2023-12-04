@@ -19,7 +19,7 @@ const Carousel = ({ slides }) => {
       <div className="slide-container">
         {slides.map((slide, index) => (
           <div key={index} className={`slide ${index === currentSlide ? 'active' : ''}`}>
-            <img src={slide.url} alt={`Slide ${index}`} />
+            <img src={slide} alt={`Slide ${index}`} />
           </div>
         ))}
       </div>

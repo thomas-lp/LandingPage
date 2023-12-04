@@ -1,34 +1,30 @@
 /* css/HouseInfoSection.css */
 .house-info-section {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  
-    h2 {
-      font-size: 1.5rem;
-    }
-  
-    p {
-      margin-top: 10px;
-    }
-  
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-  
-    li {
-      display: inline-block;
-      margin-right: 10px;
-      font-size: 0.8rem;
-      background-color: #eee;
-      padding: 5px;
-      border-radius: 5px;
-    }
-  }
-  
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 8pxrgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 100;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 50px;
+}

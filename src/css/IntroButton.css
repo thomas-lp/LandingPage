@@ -17,6 +17,7 @@
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  margin-top: 50px;
 }
 
 .intro-button:hover {
@@ -30,7 +31,7 @@
 }
 
 .button-wpp {
-  padding-top: 35px;
+  padding-top: 40px;
   font-size: 100px;  
   color: #f98404;
 }

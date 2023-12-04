@@ -25,10 +25,10 @@ const Navbar = () => {
       </div>
       <div className="right-side">
         <Button onClick={() => scrollToSection('intro')}>Inicio</Button>
+        <Button onClick={() => scrollToSection('houses')}>Casas</Button>
         <Button onClick={() => scrollToSection('events')}>Eventos</Button>
-        <Button onClick={() => scrollToSection('houses')}>Houses</Button>
         <Button onClick={() => scrollToSection('instagram')}>Instagram</Button>
-        <Button onClick={() => scrollToSection('contact')}>Contact</Button>
+        <Button onClick={() => scrollToSection('contact')}>Contato</Button>
         <Button onClick={toggleDarkMode}>{darkMode ? '🌞' : '🌙'}</Button>
       </div>
     </nav>

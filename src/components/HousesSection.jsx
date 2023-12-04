@@ -7,6 +7,7 @@ import housesData from './HousesData';
 const HousesSection = () => {
   return (
     <section id="houses" className="houses-section">
+      <h1>Casas Artísticas</h1>
       {housesData.map((house, index) => (
         <div key={index} className="house-container">
           {index % 2 === 0 ? (

@@ -16,8 +16,8 @@ const App = () => {
     <>
       <Navbar />
       <IntroSection />
-      <EventsSection />
       <HousesSection />
+      <EventsSection />
       <InstagramSection />
       <ContactSection />
       <Footer />
