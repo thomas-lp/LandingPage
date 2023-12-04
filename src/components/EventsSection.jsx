@@ -14,6 +14,9 @@ const EventsSection = () => {
 
   return (
     <div section id="events" style={{ width: '65%', margin: 'auto' }}>
+    <div style={{ width: '65%', margin: 'auto' }}>
+      <h1 style={{textAlign:'center'}}>Eventos</h1>
+      <p style={{textAlign:'center'}}> Descubra os eventos realizados pelo Por Toda PArte. </p>
       <div style={{ marginTop: '20px' }}>
         <Slider {...settings}>
           {eventsData.map((d) => (
