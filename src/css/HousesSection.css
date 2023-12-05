@@ -19,7 +19,7 @@
 .house-container {
   display: flex;
   flex-direction: row;
-  margin: 20px 20%;
+  margin: 20px 10%;
 }
 
 .carousel {
@@ -29,7 +29,7 @@
 }
 
 .info-section {
-  margin-left: 150px;
+  margin-left: 50px;
   width: 400px;
   height: 400px;
   margin-right: 50px;

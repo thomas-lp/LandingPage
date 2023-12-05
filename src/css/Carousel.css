@@ -1,8 +1,7 @@
 /* css/Carousel.css */
 .carousel {
     position: relative;
-    width: 100%;
-    max-width: 800px;
+    width: 400px;
     margin: auto;
     overflow: hidden;
   }
@@ -19,7 +18,8 @@
   }
   
   .slide img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
   }
   
   .arrow {
