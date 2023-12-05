@@ -1,6 +1,7 @@
 // components/InstagramSection.jsx
 import React from 'react';
 import '../css/InstagramSection.css';
+import InstagramData from './InstagramData';
 
 const InstagramSection = () => {
   return (
@@ -17,25 +18,11 @@ const InstagramSection = () => {
         </div>
 
         <div className="instagram-feed">
-          {/* Adicione as imagens manualmente aqui */}
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 1" />
-          </div>
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 2" />
-          </div>
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 3" />
-          </div>
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 4" />
-          </div>
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 5" />
-          </div>
-          <div className="instagram-photo">
-            <img src='https://picsum.photos/200/301' alt="Foto 6" />
-          </div>
+          {InstagramData.map((photo) => (
+            <div key={photo.id} className="instagram-photo">
+              <img src={photo.src} alt={photo.alt} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
