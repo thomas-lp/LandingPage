@@ -29,7 +29,7 @@ const EventsSection = () => {
                 </div>
 
                 <div className='image-card'>
-                  <img className='image' src={d.image} alt="" />
+                  <img className='image' src={d.image} alt={d.name} />
 
                   <div className='card-bottom'>
                     <p>{d.description}</p>

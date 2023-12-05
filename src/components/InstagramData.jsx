@@ -1,5 +1,4 @@
 // components/InstagramData.jsx
-import React from 'react';
 import ig1 from '../assets/instagram/ig1.jpeg';
 import ig2 from '../assets/instagram/ig2.jpeg';
 import ig3 from '../assets/instagram/ig3.jpeg';
