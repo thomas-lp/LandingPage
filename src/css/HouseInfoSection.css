@@ -1,9 +1,9 @@
 /* css/HouseInfoSection.css */
 .house-info-section {
-  width: 400px;
+  width: 500px;
   padding: 50px;
-  border: 1px solid #ddd;
-  border-radius: 8pxrgb(255, 255, 255);
+  border: 10px solid #ffffff;
+  background-color: #eee;
 }
 
 h2 {
@@ -19,12 +19,13 @@ ul {
   list-style: none;
   padding: 20px;
   margin: 0;
+  color: #ffffff;
 }
 
 li {
   margin-bottom: 5px;
   font-size: 0.8rem;
-  background-color: #eee;
+  background-color: #f98404;
   padding: 10px;
   border-radius: 50px;
 }

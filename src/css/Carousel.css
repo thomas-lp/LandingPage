@@ -18,6 +18,10 @@
     transition: transform 0.5s ease-in-out;
   }
   
+  .slide img {
+    width: 100%;
+  }
+  
   .arrow {
     position: absolute;
     top: 50%;
@@ -36,5 +40,24 @@
   
   .active {
     transform: translateX(0);
+  }
+  
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #555;
   }
   

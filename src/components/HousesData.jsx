@@ -34,7 +34,7 @@ import electrophorusLiberi7 from '../assets/electrophorusLiberi/7.png';
 const housesData = [
   {
     title: 'Lispectorus Watertonni',
-    description: 'Descrição da Casa 1...',
+    description: 'A casa do verão',
     characteristics: ['Animal: Beija-flor', 'Pedra: Rubi', 'Flor: Lírio amarelo', 'Cores: Azul, Dourado e Branco'],
     images: [
       lispectorusWatertonni1,

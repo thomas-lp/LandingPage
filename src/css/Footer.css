@@ -15,10 +15,11 @@ footer {
   
   .footer-left {
     flex: 1;
+    color:#ffffff
   }
   
   .footer-left h2 {
-    font-size: 2rem;
+    font-size: 30px;
   }
   
   .footer-right {
@@ -33,5 +34,10 @@ footer {
   
   .footer-bottom {
     margin-top: 20px;
+    color:#ffffff
+  }
+
+  .footer-bottom p {
+    font-size: 20px;
   }
   
