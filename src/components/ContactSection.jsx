@@ -14,7 +14,7 @@ const ContactSection = () => {
         <span className='button-social-media' ><FaTwitter/></span><br></br>
       </div>
       <h2 className='newsletter'>Newsletter</h2>
-      <p>Inscreva-se em nossa newletter para se manter informado das próximas novidades!</p>
+      <p>Inscreva-se em nossa newsletter para se manter informado das próximas novidades!</p>
       
       <form>
         <label for="name"> Nome: </label>

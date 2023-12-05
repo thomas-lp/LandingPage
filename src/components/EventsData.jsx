@@ -1,3 +1,4 @@
+// components/EventsData.jsx
 const eventsData = [
     {
       name: 'Evento de arte digital',

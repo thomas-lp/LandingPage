@@ -1,3 +1,4 @@
+// components/HousesSection.jsx
 import React from 'react';
 import Carousel from './Carousel';
 import HouseInfoSection from './HouseInfoSection';

@@ -18,7 +18,7 @@ const EventsSection = () => {
       <div className='events'>
         <div className='centralize'>
           <h1>Eventos</h1>
-          <p> Descubra os eventos realizados pelo Por Toda PArte. </p>
+          <p> Descubra os eventos realizados pelo grupo Por Toda PArte. </p>
         </div>
         <div>
           <Slider {...settings}>

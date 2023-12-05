@@ -11,7 +11,7 @@ const IntroSection = () => {
         <h1>Por Toda P<span>Arte</span></h1>
         <p>
           Somos um grupo de desenhistas tradicionais e digitais que nasceu no WhatsApp em 2018.
-          Interagimos e nos diversos de diversas formas através de eventos de desenho, e competições com as Casas Artísticas.
+          Interagimos e nos divertimos de diversas formas através de eventos de desenho, e competições entre as Casas Artísticas.
           Nossa comunidade abrange desenhistas de todo o país, unidos pela internet e presentes "Por Toda PArte".
           Você também pode fazer parte da família Por Toda PArte.
         </p>

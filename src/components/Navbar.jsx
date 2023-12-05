@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="logo">Por Toda PArte</div>
       </div>
       <div className="right-side">
-        <Button onClick={() => scrollToSection('intro')}>Inicio</Button>
+        <Button onClick={() => scrollToSection('intro')}>Início</Button>
         <Button onClick={() => scrollToSection('houses')}>Casas</Button>
         <Button onClick={() => scrollToSection('events')}>Eventos</Button>
         <Button onClick={() => scrollToSection('instagram')}>Instagram</Button>
