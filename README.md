@@ -146,7 +146,8 @@ Por se tratar de um projeto simples, não foi necessária uma arquitetura de sof
 
 - Estado
 
-### Copie o código css abaixo para a aula!
+### Copie o código css e a imagem html abaixo para a aula!
+``` css
 main {
   display: flex;
   justify-content: center;
@@ -169,5 +170,8 @@ main {
   border-radius: 50%;
   margin: 10px 0;
 }
+```
 
+``` html
 <img src="https://as2.ftcdn.net/v2/jpg/04/83/90/95/1000_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg"></img >
+```
