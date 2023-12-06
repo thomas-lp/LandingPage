@@ -132,19 +132,27 @@ Por se tratar de um projeto simples, não foi necessária uma arquitetura de sof
 - É mais fácil, rápido e ideal para uma aula introdutória
 
 ### O que é JSX
-
 - O JSX é como um HTML, porém dentro do código JavaScript
 - É a principal maneira de escrever HTML com o React
-- Podemos interpolar variáveis, inserindo elas entre { }
+- Permite interpolar variáveis, inserindo elas entre { }
 - É possível executar funções em JSX
 - Inserir valores em atributos de tags também é possível em JSX
 
 ### Conceitos Importantes
-- Componentes
+#### Componentes
+- Pedaços de código que representam partes de uma interface de usuário.
+- São reutilizáveis para várias partes da aplicação.
+- Existem componentes tanto funcionais, quanto de classe.
 
-- Props
+#### Props
+- São como atributos que passamos por parâmetros para um componente.
+- Permitem a comunicação entre componentes.
+- As props são imutáveis no componente filho que as recebe.
 
-- Estado
+#### Estado
+- Estado permite alterar o conteúdo de um componente de maneira dinâmica.
+- Quando o estado é atualizado, o React automaticamente re-renderiza o componente para refletir as mudanças.
+- O estado é gerenciado usando a função 'useState'.
 
 ### Copie o código css e a imagem html abaixo para a aula!
 ``` css
@@ -159,9 +167,12 @@ main {
 .perfil-container {
   text-align: center;
   background-color: #ff9924;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 20px;
   box-shadow: 0 0 10px #858585;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .perfil-container img {
@@ -170,8 +181,22 @@ main {
   border-radius: 50%;
   margin: 10px 0;
 }
+
+.perfil-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.perfil-container button:hover {
+  background-color: #45a049;
+}
 ```
 
 ``` html
-<img src="https://as2.ftcdn.net/v2/jpg/04/83/90/95/1000_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg"></img >
+<img src="https://as2.ftcdn.net/v2/jpg/04/83/90/95/1000_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg">
 ```
