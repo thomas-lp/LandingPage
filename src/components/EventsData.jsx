@@ -14,52 +14,52 @@ const eventsData = [
   {
     name: 'Carnaval',
     image: carnaval,
-    description: 'Descrição do evento de Carnaval...',
+    description: 'Conheça nossos eventos de Carnaval!',
   },
   {
     name: 'Páscoa',
     image: pascoa,
-    description: 'Descrição do evento de Páscoa...',
+    description: 'Conheça nossos eventos de Páscoa!',
   },
   {
     name: 'Dia das Mães',
     image: maes,
-    description: 'Descrição do evento do Dia das Mães...',
+    description: 'Conheça nossos eventos de Dia das Mães!',
   },
   {
     name: 'Dia dos Namorados',
     image: namorados,
-    description: 'Descrição do evento do Dia dos Namorados...',
+    description: 'Conheça nossos eventos de Dia dos Namorados!',
   },
   {
     name: 'Festa Junina',
     image: festaJunina,
-    description: 'Descrição do evento de Festa Junina...',
+    description: 'Conheça nossos eventos de Festa Junina!',
   },
   {
     name: 'Dia dos Pais',
     image: pais,
-    description: 'Descrição do evento do Dia dos Pais...',
+    description: 'Conheça nossos eventos de Dia dos Pais!',
   },
   {
     name: 'Halloween',
     image: halloween,
-    description: 'Descrição do evento de Halloween...',
+    description: 'Conheça nossos eventos de Halloween!',
   },
   {
     name: 'Aniversário',
     image: aniversario,
-    description: 'Descrição do evento de Aniversário...',
+    description: 'Conheça nossos eventos de Aniversário!',
   },
   {
     name: 'Natal',
     image: natal,
-    description: 'Descrição do evento de Natal...',
+    description: 'Conheça nossos eventos de Natal!',
   },
   {
     name: 'Ano Novo',
     image: anoNovo,
-    description: 'Descrição do evento de Ano Novo...',
+    description: 'Conheça nossos eventos de Ano Novo!',
   },
 ];
 

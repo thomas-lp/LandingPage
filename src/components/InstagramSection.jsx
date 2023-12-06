@@ -9,11 +9,11 @@ const InstagramSection = () => {
       <div className="instagram-content">
         <h1>Conheça o trabalho de nossos artistas!</h1>
         <p>
-          Confira as últimas postagens das incríveis artes produzidas nos eventos do grupo. Siga-nos no Instagram para não perder nada!
+          Confira as últimas postagens das incríveis artes produzidas nos eventos do grupo.
         </p>
         <div className="instagram-info">
           <p>
-            Siga-nos no Instagram: <a target="blank" href='https://www.instagram.com/todap.arte/' className="instagram-handle">@todap.arte</a>
+            Siga-nos no Instagram para não perder nada: <a target="blank" href='https://www.instagram.com/todap.arte/' className="instagram-handle">@todap.arte</a>
           </p>
         </div>
 

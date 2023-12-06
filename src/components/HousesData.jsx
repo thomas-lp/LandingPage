@@ -34,7 +34,7 @@ import electrophorusLiberi7 from '../assets/electrophorusLiberi/7.png';
 const housesData = [
   {
     title: 'Lispectorus Watertonni',
-    description: 'A casa do verão',
+    description: 'O espírito do verão! A casa do Carpe Diem!',
     characteristics: ['Animal: Beija-flor', 'Pedra: Rubi', 'Flor: Lírio amarelo', 'Cores: Azul, Dourado e Branco'],
     images: [
       lispectorusWatertonni1,
@@ -48,7 +48,7 @@ const housesData = [
   },
   {
     title: 'Ramphastidae Qinnis',
-    description: 'Descrição da Casa 2...',
+    description: 'A motivação que vem de dentro! A casa da natureza!',
     characteristics: ['Animal: Tucano', 'Pedra: Topázio Laranja', 'Flor: Girassol', 'Cores: Laranja, Amarelo e Preto'],
     images: [
       ramphastidaeQinnis1,
@@ -62,7 +62,7 @@ const housesData = [
   },
   {
     title: 'Electrophorus Liberi',
-    description: 'Descrição da Casa 3...',
+    description: 'O despertar da primavera! A casa do saber!',
     characteristics: ['Animal: Enguia', 'Pedra: Hematita', 'Flor: Vitória Régia', 'Cores: Cinza, Ciano e Laranja'],
     images: [
       electrophorusLiberi1,
