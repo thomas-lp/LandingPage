@@ -145,3 +145,29 @@ Por se tratar de um projeto simples, não foi necessária uma arquitetura de sof
 - Props
 
 - Estado
+
+### Copie o código css abaixo para a aula!
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.perfil-container {
+  text-align: center;
+  background-color: #ff9924;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #858585;
+}
+
+.perfil-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+<img src="https://as2.ftcdn.net/v2/jpg/04/83/90/95/1000_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg"></img >
