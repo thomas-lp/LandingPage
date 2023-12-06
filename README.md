@@ -63,8 +63,36 @@ Direitos reservados.
 - Vite
 
 ## Clone esse repositório
+- Acesse a página principal do repositório no GitHub.
+- Acesse o botão "Code" no canto direito superior do repositório.
+- Copie a URL do Repositório e clone usando usando um Cliente Git
+- Certifique-se de ter o Node.js versão LTS no instalado na sua máquina local.
+- Verifique a instalação correta digitando "node -v" e "npm -v" para verificar a versão instalada do node, e do node packet maneger.
+- Clone o projeto através do github para sua máquina
+- No terminal do dentro do seu projeto, instale as dependências usadas no projeto:
+- - npm install
+- - npm install slick-carousel react-slick react-instagram-embed 
+- Execute o projeto no seu navegador:
+- - npm run dev 
 
-### Como criar um projeto
+### Como criar um projeto React do 0
+    Instalação:
+    - Site Node.js Versão LTS
+    - Abrir terminal:
+        - node -v
+        - npm -v
+
+    Criar Projeto:
+    - Criar pasta no disco local
+    - Abrir terminal:
+        > cd path da pasta
+        > npm create vite@latest nomeProjeto -- --template react
+        > cd nomeProjeto
+        > code .
+    - Abrir terminal vs code:
+        > npm install
+        > npm run dev 
+        > Para sair: ctrl+c
 
 ## Arquitetura
 ### Arquitetura de Sistema
@@ -95,16 +123,25 @@ Por se tratar de um projeto simples, não foi necessária uma arquitetura de sof
 ## Como começar no React
 
 ### O que é React
+- Biblioteca javascript criada pelo Facebook para front-end
+- Criação de single pages applications 
+- React reage automaticamente as mudanças
 
 ### Criando um projeto com React
+- Vamos criar um projeto no replit! 
+- É mais fácil, rápido e ideal para uma aula introdutória
 
 ### O que é JSX
 
+- O JSX é como um HTML, porém dentro do código JavaScript
+- É a principal maneira de escrever HTML com o React
+- Podemos interpolar variáveis, inserindo elas entre { }
+- É possível executar funções em JSX
+- Inserir valores em atributos de tags também é possível em JSX
+
 ### Conceitos Importantes
+- Componentes
 
-#### Componentes
+- Props
 
-#### Props
-
-#### Estado
-
+- Estado
